@@ -2,7 +2,7 @@ let catalogue = "./img/";
 
 let suffix = ".png";
 
-let num = 6;
+let num = 3;
 
 let num_random = Math.floor(Math.random() * num);
 
