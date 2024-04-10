@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta>
+  <title>搜索导航</title>
+  <!-- 初始化布局 -->
+  <link rel="stylesheet" href="./css/initialization.css">
+  <!-- 导航栏图片 -->
+  <link rel="shortcut icon" href="./img/favicon.ico" />
+  <!-- section内容块引入 -->
+  <link rel="stylesheet" href="./css/section.css">
+  <!-- footer底部内容快引入 -->
+  <link rel="stylesheet" href="./css/footer.css">
+  <!-- topnav导航块 -->
+  <link rel="stylesheet" href="css\topnav.css">
+</head>
+
+<body>
+  <!-- 搜索框 -->
+  <dvi id="section">
+    <a href="index.html"><img src="./img/logo.png" alt="图片不见了"></a>
+    <form action="https://www.cn.bing.com/search" target="_blank" method="get">
+      <input id="SearchBox" type="text" placeholder="搜索内容" name="q">
+    </form>
+
+  </dvi>
+
+  <!--导航块-->
+  <div class="topnav">
+    <ul>
+      <p>导航</p>
+      <hr>
+      <li><a href="https://www.bilibili.com">哔哩哔哩</a></li>
+      <li><a href="https://v.qq.com/">腾讯视频</a></li>
+      <li><a href="https://music.163.com/">网易云音乐</a></li>
+      <li><a href="https://pixiv.net/">插画站</a></li>
+    </ul>
+    <div id="divbutt">
+      <button id="butt">
+      </button>
+    </div>
+  </div>
+
+  <!-- 底部备案号 -->
+  <div id="footer">
+    <img src="./img/beian.ico" alt="">
+    <a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2024035049号</a>
+  </div>
+
+  <script src="./js/background.js"></script>
+</body>
+
+</html>
