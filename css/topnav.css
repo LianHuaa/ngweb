@@ -1,0 +1,81 @@
+/* @media screen and (min-width:768px){ */
+.topnav {
+    position: fixed;
+    transform: translateX(-118px);
+    transition: transform 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.topnav_modify {
+    transform: translate(5px);
+}
+
+.topnav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 0px;
+    background-color: #fff0f0a8;
+    border-radius: 30px;
+    outline: #FFB2B294 solid 5px;
+}
+
+.topnav hr {
+    height: 1px;
+    background-color: #ff7f7f;
+    width: 100%;
+    border-width: 0px
+}
+
+.topnav li {
+    display: flex;
+    padding: 2px 7px;
+}
+
+.topnav a {
+    outline: #323232b0 solid 1px;
+    border-radius: 30px;
+    background-color: #FFDBF3;
+    padding: 5px 8px;
+    text-decoration: none;
+    color: #000000d0;
+    transition: 0.5s;
+    opacity: 0.6;
+}
+
+.topnav a:hover {
+    opacity: 2;
+    transform: scale(1.15);
+    box-shadow: 0px 0px 20px #000000;
+    outline: #343434 solid 1px;
+    color: #000000;
+}
+
+.topnav button {
+    outline: #323232b0 solid 1px;
+    border-radius: 30px;
+    background-color: #FFDBF3;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #000000d0;
+    transition: 0.5s;
+    opacity: 0.6;
+}
+
+.topnav button:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px #000000;
+    outline: #343434 solid 1px;
+    color: #000000;
+}
+
+#divbutt {
+    display: flex;
+    padding-left: 10px;
+}
+
+/* } */

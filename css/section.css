@@ -1,0 +1,48 @@
+/* @media screen and (min-width:768px) and (max-width: 996px) { */
+
+  /* 背景板 */
+  body {
+    /* background-image: url("../img/2.jpg"); */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+  /* 搜索框内容块 */
+  #section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* 搜索框 */
+  #section input {
+    width: 300px;
+    border: 1px solid #FF7F7FED;
+    opacity: 0.6;
+    padding: 7px;
+    border-radius: 100px;
+    outline: none;
+    text-align: center;
+    font-size: 25px;
+    transition: 0.6s;
+  }
+
+  /* 搜索框变大 */
+  #section input:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px #000000;
+    outline: #FF3232ED solid 1px;
+  }
+
+
+  /* logo */
+  #section img {
+    padding-top: 200px;
+    padding-bottom: 30px;
+    opacity: 0.7;
+    width: 150px;
+  }
+/* } */
