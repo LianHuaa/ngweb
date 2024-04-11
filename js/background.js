@@ -4,7 +4,7 @@ const suffix = ".png";
 
 const num = 3;
 
-let num_random = Math.floor(Math.random() * num);
+const num_random = Math.floor(Math.random() * num);
 
 (function () {
   document.body.style.backgroundImage = `url(${catalogue}${num_random}${suffix})`
