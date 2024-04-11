@@ -1,8 +1,8 @@
-let catalogue = "./img/";
+const catalogue = "./img/";
 
-let suffix = ".png";
+const suffix = ".png";
 
-let num = 3;
+const num = 3;
 
 let num_random = Math.floor(Math.random() * num);
 
